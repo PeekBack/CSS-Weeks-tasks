@@ -1,0 +1,59 @@
+div {
+    background-color: #eee;
+    width: 800px;
+    margin: 20px auto;
+}
+
+
+.foot,
+.cr7,
+.leo10,
+.nj10 {
+    background-color: #ccc;
+    font-weight: bold;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.foot {
+    width: calc(100% - 30px);
+}
+
+.cr7 {
+    width: calc((100% - 60px) / 3);
+}
+
+.leo10 {
+    width: calc((100% - 45px) / 2);
+}
+
+.nj10 {
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.mother div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(179 179 179);
+    color: black;
+}
+
+.mother .one {
+    background-color: rgb(179 179 179 / 0.1);
+}
+
+.mother .two {
+    opacity: .1;
+}
